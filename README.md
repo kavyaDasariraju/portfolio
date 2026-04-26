@@ -2,7 +2,7 @@
 
 This is my personal portfolio website.
 
-Live Link: https://yourusername.github.io/portfolio/
+Live Link:  https://kavyadasariraju.github.io/portfolio/
 
 Technologies:
 - HTML
