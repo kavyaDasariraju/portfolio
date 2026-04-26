@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Kavya Portfolio</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Icons -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Dasariraju Kavya</h1>
+      <h2>Frontend Developer | AI & ML Student</h2>
+
+      <!-- Cards -->
+      <div class="cards">
+        <!-- Education -->
+        <div class="card" onclick="toggle('edu')">
+          <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+          <div id="edu" class="content">
+            <p>B.Tech - CSE (AI & ML)</p>
+            <p>2023 – 2027</p>
+          </div>
+        </div>
+
+        <!-- Skills -->
+        <div class="card" onclick="toggle('skills')">
+          <h3><i class="fas fa-code"></i> Skills</h3>
+          <div id="skills" class="content">
+            <p>HTML - Intermediate</p>
+            <p>CSS - Intermediate</p>
+            <p>Python - Beginner</p>
+          </div>
+        </div>
+
+        <!-- Projects -->
+        <div class="card" onclick="toggle('projects')">
+          <h3><i class="fas fa-laptop-code"></i> Projects</h3>
+          <div id="projects" class="content">
+            <p><b>Portfolio Website</b></p>
+            <p>Personal responsive portfolio using HTML & CSS</p>
+            <a href="#" target="_blank">GitHub Link</a>
+
+            <br /><br />
+
+            <p><b>To-Do App</b></p>
+            <p>Task manager with basic UI</p>
+            <a href="#" target="_blank">GitHub Link</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- About -->
+      <div class="about">
+        <div class="card" onclick="toggle('about')">
+          <h3><i class="fas fa-user"></i> About Me</h3>
+          <div id="about" class="content">
+            <p>
+              Passionate CSE (AI & ML) student focused on frontend development
+              and problem-solving. Building projects to improve real-world
+              skills.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact -->
+      <div class="contact">
+        <h3>Contact</h3>
+        <p>
+          <a href="#">GitHub</a> | <a href="#">LinkedIn</a> |
+          <a href="mailto:youremail@gmail.com">Email</a>
+        </p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
